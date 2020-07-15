@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css'>
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <section class="index-display">
+            <i class="fas fa-snowman"></i>
+            <i class="fas fa-snowboarding"></i>
+            <i class="fas fa-chess-knight"></i>
+            <i class="fab fa-canadian-maple-leaf"></i>
+            <i class="fas fa-birthday-cake"></i>
+            <i class="fas fa-dragon"></i>
+            <i class="fas fa-gifts"></i>
+            <i class="fas fa-theater-masks"></i>
+        </section>
+
+        <section class="score-panel">
+            <section class="pairs-matched">
+                <h2>Pairs Matched:</h2>
+                <p id="moves-counter" class="moves">0</p>
+                <h2>Timer:</h2>
+                <p id="time" class="time" > 00 : 00 : 00 </p> 
+                <h2>Total Score:</h2>
+                <p id="total-score" class="total">0</p>
+            </section>  
+            <button id="restart-button">Restart Game</button>
+             
+        </section>
+
+        <ul id="imageList" class="deck">
+        </ul>
+    </div>
+
+	<div id="overlay"></div>
+	
+    <script src="js/script.js"></script>
+</body>
+</html>
